@@ -1,0 +1,196 @@
+.auth-page {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 0;
+}
+
+.auth-layout {
+  width: 100%;
+  max-width: 560px;
+}
+
+.auth-card {
+  border: 1px solid rgba(126, 180, 119, 0.2);
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at top left, rgba(196, 239, 183, 0.38), transparent 34%),
+    #ffffff;
+  box-shadow: 0 24px 60px rgba(155, 196, 143, 0.12);
+}
+
+.auth-card {
+  padding: 28px;
+}
+
+.auth-card__title {
+  margin: 12px 0 22px;
+  color: #18311b;
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.auth-switcher {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 8px;
+  border-radius: 22px;
+  background: #f5fbf1;
+}
+
+.auth-tab {
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: transparent;
+  color: #548258;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.auth-tab--active {
+  background: linear-gradient(135deg, #b6e3ab 0%, #8fcd89 100%);
+  color: #17351b;
+  box-shadow: 0 10px 18px rgba(126, 188, 120, 0.18);
+}
+
+.auth-status {
+  margin: -2px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.auth-status--info {
+  color: #547158;
+}
+
+.auth-status--success {
+  color: #2c6b37;
+}
+
+.auth-status--error {
+  color: #c43c3c;
+}
+
+.auth-form {
+  display: grid;
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.auth-form label {
+  display: grid;
+  gap: 8px;
+  color: #27432d;
+  font-weight: 600;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #d7ecd3;
+  border-radius: 18px;
+  background: #fbfff9;
+  color: #1d341f;
+}
+
+.auth-form input::placeholder {
+  color: #8aa08d;
+}
+
+.auth-password-field {
+  position: relative;
+}
+
+.auth-password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #3e6d45;
+  cursor: pointer;
+}
+
+.auth-password-toggle:hover {
+  color: #1f4f2a;
+}
+
+.auth-password-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+.auth-password-input {
+  padding-right: 52px;
+}
+
+.auth-text-link {
+  justify-self: start;
+  padding: 0;
+  background: transparent;
+  color: #4b7c50;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.auth-text-link:hover {
+  color: #234d2c;
+}
+
+.auth-submit {
+  padding: 14px 18px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #9adb94 0%, #73c76f 100%);
+  color: #16391e;
+  cursor: pointer;
+  font-weight: 800;
+  box-shadow: 0 12px 24px rgba(126, 188, 120, 0.24);
+}
+
+.auth-submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+  box-shadow: none;
+}
+
+.forgot-password-intro {
+  margin: -8px 0 0;
+  color: #547158;
+  line-height: 1.5;
+}
+
+.forgot-password-steps {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.forgot-password-step {
+  padding: 12px 16px;
+  border: 1px solid #d7ecd3;
+  border-radius: 18px;
+  background: #f7fcf4;
+  color: #6d866f;
+  font-weight: 700;
+}
+
+.forgot-password-step--active {
+  border-color: rgba(110, 188, 120, 0.5);
+  background:
+    linear-gradient(135deg, rgba(196, 239, 183, 0.5), rgba(247, 252, 244, 0.95));
+  color: #234d2c;
+}
+
+.forgot-password-form {
+  margin-top: 14px;
+}
+

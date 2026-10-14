@@ -1,0 +1,34 @@
+.blank-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+
+.blank-page__card {
+  width: 100%;
+  max-width: 760px;
+  min-height: 320px;
+  padding: 32px;
+  border: 1px solid rgba(126, 180, 119, 0.2);
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at top left, rgba(196, 239, 183, 0.38), transparent 34%),
+    #ffffff;
+  box-shadow: 0 24px 60px rgba(155, 196, 143, 0.12);
+}
+
+.blank-page__card h2 {  
+  margin: 12px 0 0;
+  color: #18311b;
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.gallery-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
